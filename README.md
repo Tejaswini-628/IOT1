@@ -10,25 +10,23 @@
 10. **[7c](https://www.tinkercad.com/things/lDAvOVBpPYp-7c?sharecode=1zJxNTE76ChZhr3e5m8LRDPby6T3J-b52nBlHqKFZ54)**
 
 
-mail:naganehasri4747@gmail.com
-password:Neha@1234
+mail: naganehasri4747@gmail.com
+password: Neha@1234
 
 
 7a code:
-void setup()
-{
-  pinMode(4,OUTPUT);
-  pinMode(7,INPUT);
+## Code
+void setup() {
+  pinMode(4, OUTPUT);
+  pinMode(7, INPUT);
 }
 
-void loop()
-{
-  if(digitalRead(7)==LOW){
-    digitalWrite(4,HIGH);
+void loop() {
+  if (digitalRead(7) == LOW) {
+    digitalWrite(4, HIGH);
     delay(100);
-  }
-  else{
-    digitalWrite(4,LOW);
+  } else {
+    digitalWrite(4, LOW);
     delay(100);
   }
 }
